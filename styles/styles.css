@@ -15,11 +15,11 @@ h1 {
 
 .my-button {
     background: #eb94d0;
-    background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
-    background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
-    background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
-    background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
-    background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+    background-image: -webkit-linear-gradient(top, #6cbbec, #1f0adfc4);
+    background-image: -moz-linear-gradient(top, #6cbbec, #1f0adfc4);
+    background-image: -ms-linear-gradient(top, #6cbbec, #1f0adfc4);
+    background-image: -o-linear-gradient(top, #6cbbec, #1f0adfc4);
+    background-image: linear-gradient(to bottom, #6cbbec, #1f0adfc4);
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
@@ -36,10 +36,10 @@ h1 {
 
 .my-button:hover {
     background: #2079b0;
-    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
-    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
+    background-image: -webkit-linear-gradient(top, #1f0adfc4, #6cbbec);
+    background-image: -moz-linear-gradient(top, #1f0adfc4, #6cbbec);
+    background-image: -ms-linear-gradient(top, #1f0adfc4, #6cbbec);
+    background-image: -o-linear-gradient(top, #1f0adfc4, #6cbbec);
+    background-image: linear-gradient(to bottom, #1f0adfc4, #6cbbec);
     text-decoration: none;
 }
