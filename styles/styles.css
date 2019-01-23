@@ -7,6 +7,11 @@
     font-size: 16px;
     border-radius: 2rem;
     display: inline-block;
+    background-image: -webkit-linear-gradient(top, #e2e3e4, #787879c4);
+    background-image: -moz-linear-gradient(top, #e2e3e4, #787879c4);
+    background-image: -ms-linear-gradient(top, #e2e3e4, #787879c4);
+    background-image: -o-linear-gradient(top, #e2e3e4, #787879c4);
+    background-image: linear-gradient(to right bottom, #e2e3e4, #787879c4);
 }
 
 h1 {
@@ -23,12 +28,12 @@ h1 {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    text-shadow: 3px 2px 1px #9daef5;
+    text-shadow: 3px 2px 1px #036413;
     -webkit-box-shadow: 6px 5px 24px #666666;
     -moz-box-shadow: 6px 5px 24px #666666;
     box-shadow: 6px 5px 24px #666666;
     font-family: Arial;
-    color: #fafafa;
+    color: #04f7119c;
     font-size: 27px;
     padding: 19px;
     text-decoration: none;
