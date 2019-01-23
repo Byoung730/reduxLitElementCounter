@@ -35,6 +35,7 @@ class CounterView extends connect(store)(LitElement) {
         ${style}
       </style>
       <div class="counter">
+        <h1>Redux Counter</h1>
         <h1>Count: ${this.count}</h1>
         <button class="my-button" @click="${this.plusOne}">Add One</button>
         <button class="my-button" @click="${this.lessOne}">Minus One</button>
