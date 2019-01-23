@@ -12,6 +12,7 @@ import {
   addOne,
   minusOne
 } from './src/redux/actions.js'
+import '@vaadin/vaadin-button'
 import style from './styles/styles.css'
 
 class CounterView extends connect(store)(LitElement) {
@@ -35,8 +36,8 @@ class CounterView extends connect(store)(LitElement) {
       </style>
       <div class="counter">
         <h1>Count: ${this.count}</h1>
-        <button @click="${this.plusOne}">Add One</button>
-        <button @click="${this.lessOne}">Minus One</button>
+        <button class="my-button" @click="${this.plusOne}">Add One</button>
+        <button class="my-button" @click="${this.lessOne}">Minus One</button>
       </div>
     `
   }
