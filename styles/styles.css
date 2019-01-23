@@ -1,0 +1,13 @@
+.counter {
+    padding: 3rem;
+    margin: 3rem;
+    background-color: coral;
+    color: rebeccapurple;
+    font-size: 16px;
+    border-radius: 2rem;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+}
